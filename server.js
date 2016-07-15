@@ -22,8 +22,8 @@ app.use(function (req, res, next) {
   var messageArr = message.split(' ');
   for (var i = 0; i < messageArr.length; i++) {
     for (var keys in blacklist){
-      if (messageArr[i] === keys){
-        messageArr[i] = blacklist[keys];
+      if (messageArr[i].match(keys)){
+        messageArr[i] = messageArr[i].replace(keys, blacklist[keys]);
       }
     }
   }
