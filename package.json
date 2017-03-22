@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herrolisa/redacted.git"
+    "url": "git+https://github.com/lisazhou/redacted.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/herrolisa/redacted/issues"
+    "url": "https://github.com/lisazhou/redacted/issues"
   },
-  "homepage": "https://github.com/herrolisa/redacted#readme",
+  "homepage": "https://github.com/lisazhou/redacted#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
